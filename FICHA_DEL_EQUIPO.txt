@@ -1,0 +1,9 @@
+INVENTARIO CLARO - DATOS DEL EQUIPO
+
+Integrantes: David Valdebenito y Cristobal
+Curso: [COMPLETAR]
+Tarea de David: [DESCRIBIR SU APORTE REAL]
+Tarea de Cristobal: [DESCRIBIR SU APORTE REAL]
+
+Antes de presentar, expliquen quien realizo cada parte y muestren el proyecto funcionando.
+Evidencia adicional recomendable: captura del filtro Stock bajo y de la redireccion al login al intentar abrir /dashboard sin sesion.
