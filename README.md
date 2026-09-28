@@ -14,7 +14,7 @@ Una pequeña empresa puede perder el control de sus existencias si lleva product
 
 ## Instalación en Windows con XAMPP
 
-1. Descomprime este proyecto, por ejemplo en `C:\xampp\htdocs\InventarioClaro`.
+1. Descomprime este proyecto en una carpeta de tu usuario, por ejemplo `%USERPROFILE%\InventarioClaro`. No necesitas colocarlo dentro de `htdocs` si lo iniciarás con `php artisan serve`.
 2. Abre el panel de XAMPP e inicia **MySQL**. En `http://localhost/phpmyadmin`, crea una base vacía llamada `inventario_claro` con codificación `utf8mb4`. No importes tablas manualmente.
 3. Abre PowerShell en la carpeta del proyecto. Si `php` no se reconoce, ejecuta primero `$env:Path="C:\xampp\php;$env:Path"` en esa ventana. Composer debe estar instalado por separado.
 4. Ejecuta los comandos:
@@ -69,7 +69,7 @@ Capturas recomendadas **después de ejecutar el proyecto en tu PC**:
 6. phpMyAdmin con los registros de `products`.
 7. Terminal con resultado de `php artisan test`.
 
-No se incluyen capturas ni resultados inventados: debes producir esa evidencia en tu instalación. Si trabajas en equipo, completa quién investigó el contexto, quién desarrolló autenticación y datos, quién hizo interfaz y pruebas; todos deben poder explicar el funcionamiento.
+Este repositorio incluye cinco capturas reales en `Evidencias/` y el informe en `Informe_InventarioClaro.pdf`. No se incluyen resultados inventados de pruebas automáticas. Para reforzar la demostración, captura también el filtro Stock bajo y la redirección al login sin sesión. Completa en `FICHA_DEL_EQUIPO.txt` el curso y el aporte real de cada integrante.
 
 ## Presentación breve sugerida
 
